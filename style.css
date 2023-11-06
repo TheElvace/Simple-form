@@ -1,0 +1,55 @@
+/* container should cover the screen. No white spaces
+form in the middle of the screen
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form {
+    width: 350px;
+    display: flex;
+    padding: 3em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    height: 80%;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    margin: 5px;
+    padding: 15px;
+    width: 100%;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+}
+
+.error{
+    border: 1px red solid;
+}
+
+.success{
+    border: 1px green solid;
+}
+
+.small{
+    visibility: hidden;
+}
